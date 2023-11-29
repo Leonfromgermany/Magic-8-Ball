@@ -1,7 +1,6 @@
 // The Magical 8 Ball by Leon
 
 // Answer Button
-
 document.getElementById("answer1").addEventListener("click", answer1BtnClicked);
 
 function answer1BtnClicked() {
