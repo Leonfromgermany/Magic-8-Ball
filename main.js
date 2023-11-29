@@ -1,3 +1,5 @@
+// The Magical 8 Ball by Leon
+
 // Answer Button
 
 document.getElementById("answer1").addEventListener("click", answer1BtnClicked);
@@ -6,11 +8,13 @@ function answer1BtnClicked() {
   let randNum = Math.random();
   console.log(randNum);
 
+  // Variables
   let qn1 = "Does the magic 8 ball actually work?";
   let qn2 = "Is JavaScript awesome?";
   let qn3 = "What kind of questions should I ask?";
   let questions = document.getElementById("questions").value;
 
+  // Outup 
   if (questions.length === 0) {
     document.getElementById("answer").innerHTML = "Please ask a question";
   } else if (questions === qn1) {
